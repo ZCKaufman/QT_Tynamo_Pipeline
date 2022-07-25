@@ -1,1 +1,6 @@
-ROS_TOPIC = "/camera/color/image_raw"
+ROS_CAMERA_TOPIC = "/camera/color/image_raw"
+ROS_TYNAMO_TOPIC = "/tynamo"
+HOSTNAME = "tynamo.luddy.indiana.edu"
+SERVER_PROJECT_PATH = "/scratch/djcran/iki-demo/"
+CV_USERNAME = "qtrobots"
+CV_PASSCODE = "password"

@@ -1,0 +1,20 @@
+<package format="2">
+  <name>qt_tynamo_pipeline</name>
+  <version>0.0.1</version>
+  <description>
+    This uses ROS (Robot Operating System) to create a data pipeline between the QT robot and the Tynamo CV server at Indiana University Bloomington
+  </description>
+  <maintainer email="zkaufman@protonmail.com">Zachary Kaufman</maintainer>
+  <license>TODO</license>
+
+  <author>Zachary Kaufman</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>rospy</exec_depend>
+</package>
